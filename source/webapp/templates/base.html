@@ -23,6 +23,7 @@
                  <li><a href="{% url 'accounts:logout' %}">log out</a></li>
              {% else %}
                  <li><a href="{% url 'accounts:login' %}">Логин</a></li>
+                 <li><a href="{% url 'accounts:register' %}">Sign Up</a></li>
              {% endif %}
             {% block menu %}{% endblock %}
         </ul>
